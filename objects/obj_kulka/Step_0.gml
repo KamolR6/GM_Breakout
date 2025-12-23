@@ -65,9 +65,9 @@ if(room == room_first){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDParent : 13E4A67D
 			/// @DnDArgument : "xpos_relative" "1"
 			/// @DnDArgument : "ypos_relative" "1"
-			/// @DnDArgument : "objectid" "obj_platforma"
-			/// @DnDSaveInfo : "objectid" "obj_platforma"
-			instance_create_layer(x + 0, y + 0, "Instances", obj_platforma);}
+			/// @DnDArgument : "objectid" "obj_health"
+			/// @DnDSaveInfo : "objectid" "obj_health"
+			instance_create_layer(x + 0, y + 0, "Instances", obj_health);}
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
