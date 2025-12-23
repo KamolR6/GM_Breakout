@@ -48,6 +48,6 @@ kostka = irandom_range(1,16);
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2E8D78F9
-/// @DnDArgument : "expr" "irandom_range(1,2)"
+/// @DnDArgument : "expr" "irandom_range(1,32)"
 /// @DnDArgument : "var" "zycko"
-zycko = irandom_range(1,2);
+zycko = irandom_range(1,32);
