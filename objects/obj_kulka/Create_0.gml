@@ -10,3 +10,9 @@ q_clicked = false;
 /// @DnDHash : 744D6A0D
 /// @DnDArgument : "var" "kostka"
 kostka = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6F437DE8
+/// @DnDArgument : "var" "zycko"
+zycko = 0;

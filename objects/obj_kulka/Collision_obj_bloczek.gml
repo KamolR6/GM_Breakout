@@ -41,6 +41,13 @@ with(other) {
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5B3DAEE2
-/// @DnDArgument : "expr" "irandom_range(1,2)"
+/// @DnDArgument : "expr" "irandom_range(1,16)"
 /// @DnDArgument : "var" "kostka"
-kostka = irandom_range(1,2);
+kostka = irandom_range(1,16);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2E8D78F9
+/// @DnDArgument : "expr" "irandom_range(1,32)"
+/// @DnDArgument : "var" "zycko"
+zycko = irandom_range(1,32);
