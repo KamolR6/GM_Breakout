@@ -45,6 +45,8 @@
     {"id":{"name":"r_gra","path":"rooms/r_gra/r_gra.yy",},},
     {"id":{"name":"r_przegrana","path":"rooms/r_przegrana/r_przegrana.yy",},},
     {"id":{"name":"r_wygrana","path":"rooms/r_wygrana/r_wygrana.yy",},},
+    {"id":{"name":"sfx_ballhit","path":"sounds/sfx_ballhit/sfx_ballhit.yy",},},
+    {"id":{"name":"sfx_upgrade_pickup","path":"sounds/sfx_upgrade_pickup/sfx_upgrade_pickup.yy",},},
     {"id":{"name":"spr_bloczek","path":"sprites/spr_bloczek/spr_bloczek.yy",},},
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
     {"id":{"name":"spr_kulka","path":"sprites/spr_kulka/spr_kulka.yy",},},

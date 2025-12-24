@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 08000EDC
+/// @DnDArgument : "soundid" "sfx_upgrade_pickup"
+/// @DnDSaveInfo : "soundid" "sfx_upgrade_pickup"
+audio_play_sound(sfx_upgrade_pickup, 0, 0, 1.0, undefined, 1.0);
+
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
 /// @DnDHash : 7DB1A455
