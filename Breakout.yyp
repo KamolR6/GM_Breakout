@@ -53,7 +53,6 @@
     {"id":{"name":"spr_multiball","path":"sprites/spr_multiball/spr_multiball.yy",},},
     {"id":{"name":"spr_platforma","path":"sprites/spr_platforma/spr_platforma.yy",},},
     {"id":{"name":"spr_zycia","path":"sprites/spr_zycia/spr_zycia.yy",},},
-    {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

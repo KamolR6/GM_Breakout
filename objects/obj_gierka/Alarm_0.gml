@@ -24,5 +24,5 @@ if(trudnosc == true){	/// @DnDAction : YoYo Games.Common.Apply_To
 	/// @DnDVersion : 1
 	/// @DnDHash : 732D8034
 	/// @DnDParent : 3578411E
-	/// @DnDArgument : "steps" "60"
-	alarm_set(0, 60);}
+	/// @DnDArgument : "steps" "60 * irandom_range(3,9)"
+	alarm_set(0, 60 * irandom_range(3,9));}
