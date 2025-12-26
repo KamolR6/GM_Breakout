@@ -8,3 +8,10 @@
 /// @DnDHash : 0B687624
 /// @DnDArgument : "lives" "3"
 __dnd_lives = real(3);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 44AFAF14
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "trudnosc"
+trudnosc = false;

@@ -14,7 +14,16 @@ var l3C53C347_0 = room;switch(l3C53C347_0){	/// @DnDAction : YoYo Games.Switc
 	/// @DnDHash : 5740EFDF
 	/// @DnDParent : 3C53C347
 	/// @DnDArgument : "const" "r_gra"
-	case r_gra:	/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
+	case r_gra:	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 3CAEFCAD
+		/// @DnDParent : 5740EFDF
+		/// @DnDArgument : "y" "20"
+		/// @DnDArgument : "caption" ""Czy zjezdza ""
+		/// @DnDArgument : "var" "trudnosc"
+		draw_text(0, 20, string("Czy zjezdza ") + string(trudnosc));
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
 		/// @DnDVersion : 1
 		/// @DnDHash : 23D7992D
 		/// @DnDParent : 5740EFDF

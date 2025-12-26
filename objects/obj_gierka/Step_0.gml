@@ -54,3 +54,15 @@ if(room == room_first){	/// @DnDAction : YoYo Games.Instance Variables.If_Live
 		/// @DnDArgument : "objectid" "obj_kulka"
 		/// @DnDSaveInfo : "objectid" "obj_kulka"
 		instance_create_layer(obj_platforma.x, obj_platforma.y-obj_platforma.sprite_yoffset-8 , "Instances", obj_kulka);}}
+
+/// @DnDAction : YoYo Games.Rooms.If_First_Room
+/// @DnDVersion : 1
+/// @DnDHash : 02CE5E88
+/// @DnDArgument : "not" "1"
+if(room != room_first){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 1E66123B
+	/// @DnDParent : 02CE5E88
+	/// @DnDArgument : "expr" "false"
+	/// @DnDArgument : "var" "trudnosc"
+	trudnosc = false;}
