@@ -33,4 +33,18 @@ if(room == room_first){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDParent : 71B2209B
 			/// @DnDArgument : "expr" "true"
 			/// @DnDArgument : "var" "q_clicked"
-			q_clicked = true;}}}
+			q_clicked = true;
+		
+			/// @DnDAction : YoYo Games.Common.Apply_To
+			/// @DnDVersion : 1
+			/// @DnDHash : 4EE3821A
+			/// @DnDApplyTo : {obj_gierka}
+			/// @DnDParent : 71B2209B
+			with(obj_gierka) {
+				/// @DnDAction : YoYo Games.Instances.Set_Alarm
+				/// @DnDVersion : 1
+				/// @DnDHash : 518CDCFA
+				/// @DnDParent : 4EE3821A
+				/// @DnDArgument : "steps" "60*2"
+				alarm_set(0, 60*2);
+			}}}}
