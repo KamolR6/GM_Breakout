@@ -15,3 +15,10 @@
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "trudnosc"
 trudnosc = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6E1F9668
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "first_click"
+first_click = false;
